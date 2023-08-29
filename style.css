@@ -1,0 +1,73 @@
+h1 {
+  background: linear-gradient(to right,
+      aqua 10%,
+      pink 70%);
+}
+
+#gholi {
+  background-color: white;
+  border: dashed 2px rgb(183, 51, 51);
+  border-radius: 10;
+  text-shadow: 1px 2px 1px pink;
+  font-family: "Comic Sans Ms";
+  font-size: 18px;
+}
+
+#gholi:hover {
+  animation-name: change;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#ali {
+  color: white;
+}
+
+a {
+  text-decoration: line-through;
+}
+
+button {
+  color: red;
+  background-color: aqua;
+  border: solid 2px rgb(183, 51, 51);
+  border-radius: 50px;
+  box-shadow: 2px 2px 7px 1px;
+}
+
+button:hover {
+  animation-name: change-color;
+  animation-duration: 4s;
+}
+
+button:active {
+  color: greenyellow;
+}
+
+@keyframes change-color {
+  from {
+    color: red;
+  }
+
+  to {
+    color: blue;
+  }
+}
+
+@keyframes change {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: aquamarine;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.my-class {
+  color: pink;
+}
